@@ -1,0 +1,44 @@
+body {
+    background: #000000;
+    color: #00ff41;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    padding: 40px;
+}
+
+#password-screen,
+#riddle-screen {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#messages div,
+#riddle-messages div {
+    margin: 8px 0;
+    text-shadow: 0 0 2px #00ff41;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.input-line span {
+    margin-right: 8px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #00ff41;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    width: 500px;
+}
+
+input::placeholder {
+    color: #00ff41;
+    opacity: 0.45;
+}

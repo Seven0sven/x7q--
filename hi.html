@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Riddle Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PASSWORD SCREEN -->
+    <div id="password-screen">
+
+        <div id="messages">
+            <div>&lt;?&gt; SYSTEM LOCKED.</div>
+            <div>&lt;?&gt; AUTHENTICATION REQUIRED.</div>
+            <br>
+            <div>&lt;?&gt; The end of the week</div>
+            <div>&lt;?&gt; The order of sins</div>
+            <div>&lt;?&gt; Where old Rome begins</div>
+            <div>&lt;?&gt; What am I?</div>
+        </div>
+
+        <div class="input-line">
+            <span>&gt;</span>
+            <input type="text" id="password" placeholder="type password..." autofocus>
+        </div>
+
+    </div>
+
+
+    <!-- RIDDLE SCREEN -->
+    <div id="riddle-screen" style="display: none;">
+
+        <div id="riddle-messages">
+            <div>&lt;?&gt; I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?</div>
+        </div>
+
+        <div class="input-line">
+            <span>&gt;</span>
+            <input type="text" id="answer" placeholder="type your answer...">
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
